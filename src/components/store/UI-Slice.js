@@ -7,6 +7,7 @@ const uiSlice = createSlice({
     initialState:{cartIsVisible:false,notification:null},
     reducers:{
         toggle(state){
+        
             state.cartIsVisible=!state.cartIsVisible
             console.log('button clicked')
         },
